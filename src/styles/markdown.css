@@ -1,3 +1,6 @@
+/* Keep custom @apply classes in the same Tailwind compilation. */
+@import "./main.css";
+
 .custom-md {
     h1 {
         @apply text-3xl;
